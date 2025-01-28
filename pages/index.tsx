@@ -46,30 +46,30 @@ export default function Home() {
             {/* SEO 정보 추가 */}
             <Head>
                 <meta charSet="UTF-8" />
-                <title>Карго</title>
-                <meta name="description" content="Текст" />
-                <meta name="keywords" content="Текст" />
-                <meta name="author" content="Текст" />
+                <title>"Нисэх карго" Тээвэр зууч</title>
+                <meta name="description" content="'Нисэх карго' нь БНХАУ-н бүх хотуудаас бүх төрлийн барааг Улаанбаатар хот руу хурдан, аюулгүй тээвэрлэх үйлчилгээ үзүүлдэг ба тээвэр зуучийн салбарт 10 гаруй жилийн туршлагтай Хятад улсын тээврийн Амгалан карго компани-тай хамтран ажиллаж байна." />
+                <meta name="keywords" content="Нисэх карго" />
+                <meta name="author" content="Нисэх карго" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta property="og:title" content="Текст" />
-                <meta property="og:description" content="Текст" />
+                <meta property="og:title" content="Нисэх карго" />
+                <meta property="og:description" content="'Нисэх карго' нь БНХАУ-н бүх хотуудаас бүх төрлийн барааг Улаанбаатар хот руу хурдан, аюулгүй тээвэрлэх үйлчилгээ үзүүлдэг ба тээвэр зуучийн салбарт 10 гаруй жилийн туршлагтай Хятад улсын тээврийн Амгалан карго компани-тай хамтран ажиллаж байна." />
                 <meta property="og:image" content="/logo1.png" />
-                <meta property="og:url" content="Текст" />
-                <meta name="twitter:card" content="Текст" />
-                <meta name="twitter:title" content="Текст" />
-                <meta name="twitter:description" content="Текст" />
+                <meta property="og:url" content="https://www.facebook.com/profile.php?id=61561245556651" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Нисэх карго" />
+                <meta name="twitter:description" content="'Нисэх карго' нь БНХАУ-н бүх хотуудаас бүх төрлийн барааг Улаанбаатар хот руу хурдан, аюулгүй тээвэрлэх үйлчилгээ үзүүлдэг ба тээвэр зуучийн салбарт 10 гаруй жилийн туршлагтай Хятад улсын тээврийн Амгалан карго компани-тай хамтран ажиллаж байна." />
                 <meta name="twitter:image" content="/logo1.png" />
             </Head>
 
             <div className="min-h-screen flex flex-col justify-between py-6 px-4 sm:px-6 lg:px-8" style={{ backgroundImage: 'url("https://cdn.caliverse.io/images/bg_mint.jpeg")', backgroundSize: 'cover' }}>
                 <div className="w-full mx-auto items-center">
                     {/* Header Section */}
-                    <div className="w-full px-10 h-[100px] bg-[#000000] flex items-center justify-center text-white gap-4 font-bold text-[20px]">
+                    <div className="w-full px-10 h-[100px] bg-[#000000] flex items-center justify-center text-white font-bold text-[20px]">
                         <Image
                             src="/logo1.png"
                             alt="Uni Cargo Logo"
-                            width={120}
-                            height={120}
+                            width={180}
+                            height={180}
                             priority
                             className="mt-5"
                         />
@@ -85,7 +85,7 @@ export default function Home() {
                                     type="submit"
                                     disabled={loading}
                                     className={`!absolute right-0 top-0 h-full select-none rounded-[100px] py-1 px-6 text-center align-middle text-md text-white transition-all focus:opacity-[0.85] outline-none border-0 
-                                    ${loading ? 'bg-[#15B8BF]' : 'bg-[#15B8BF] hover:bg-[#15B8BF99]'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500`}
+                                    ${loading ? 'bg-[#FDA600]' : 'bg-[#FDA600] hover:bg-[#FDA60099]'} focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500`}
                                 >
                                     {loading ? 'Хайж байна...' : 'Хайх'}
                                 </button>
@@ -94,7 +94,7 @@ export default function Home() {
                                     autoComplete="off"
                                     type="text"
                                     {...register('query', { required: '*Заавал утга оруулна уу.' })}
-                                    className="text-[#ffffff] text-md py-3 px-4 w-full rounded-[100px] bg-black pr-12 font-normal border border-[#15B8BF] border-solid focus:outline-none"
+                                    className="text-[#ffffff] text-md py-3 px-4 w-full rounded-[100px] bg-black pr-12 font-normal border border-[#FDA600] border-solid focus:outline-none"
                                     placeholder="Track код оруулна уу."
                                 />
                             </div>
@@ -102,32 +102,35 @@ export default function Home() {
                     </form>
                     {!hasSearched && (
                         <div className="bg-[#000000] text-[#ffffff] p-6 rounded-md shadow-md max-w-[756px] mx-auto">
-                            <h2 className=" flex items-center justify-center text-xl font-bold mb-4">"Карго"</h2>
+                            <h2 className=" flex items-center justify-center text-xl font-bold mb-4">"Нисэх карго" Тээвэр зууч</h2>
 
                             <p className="mb-2">
-                                Бид танд дараах үйлчилгээг санал болгож байна:
+                            'Нисэх карго' нь БНХАУ-н бүх хотуудаас бүх төрлийн барааг Улаанбаатар хот руу хурдан, аюулгүй тээвэрлэх үйлчилгээ үзүүлдэг ба тээвэр зуучийн салбарт 10 гаруй жилийн туршлагтай Хятад улсын тээврийн "Амгалан карго" компани-тай хамтран ажиллаж байна.
                             </p>
                             <ul className="list-disc list-inside">
-                                <li className='font-bold'>Текст</li>
+                                <li className='font-bold'>Каргоны үнийн мэдээлэл</li>
                                 <p className="mb-4">
-                                    - Текст/<br />
-                                    - Текст/<br />
-                                    - Текст
+                                * Бүх төрлийн түүвэр ачаа<br />
+                                * Ууттай ачаа эхний 1кг 2500₮<br />
+                                * Хайрцагтай ачаа эхний 1 кг 3000₮ <br />
+                                * Овор ихтэй хөнгөн ачаа /1m³=650¥/
                                 </p>
-                                <li className='font-bold'>Текст</li>
+                                <li className='font-bold'>Карго холбох заавар: </li>
                                 <p className="mb-4">
-                                    Текст
-                                </p>
-                                <li className='font-bold'>Текст</li>
-                                <p className="mb-4">
-                                    Текст
-                                    <br /> Үүнд:<br />
-                                    - Текст<br />
-                                    - Текст<br />
-                                    - Текст<br />
-                                </p>
-                                <p className="mb-2">
-                                    Текст
+                                - Хүлээн авагч / 收货人:<br />
+                                奥奇物流 - Энэ ханзыг хуулж оруулна<br />
+                                - Утасны дугаар / 手机号码:<br />
+                                13214791668 - Хуулж оруулна<br />
+                                - Mуж / 省份:<br />
+                                内蒙古自治区 - Цэснээс сонгоно<br />
+                                - Аймаг / 地区:<br />
+                                锡林郭勒盟 - Цэснээс сонгоно<br />
+                                - Хот / 城市:<br />
+                                二连浩特市 - Цэснээс сонгоно<br />
+                                - Дүүрэг / 街道:<br />
+                                二连浩特市社区建设管理局 - Цэснээс сонгоно<br />
+                                - Дэлгэрэнгүй хаяг / 详细地址:<br />
+                                利众物流G2—7号 奥奇物流 - Хуулж оруулна (Өөрийн нэр утасны дугаар бичнэ)
                                 </p>
                             </ul>
                         </div>
@@ -159,7 +162,7 @@ export default function Home() {
                                     return (
                                         <div
                                             key={index}
-                                            className={`w-full flex items-center justify-between p-4 border border-[#15B8BF] border-solid rounded-md md:h-[64px] ${result?.properties?.Status?.status?.name === "Хүлээн авсан" ? ' bg-[#333D47]' : 'bg-[#000000]'} my-1`}
+                                            className={`w-full flex items-center justify-between p-4 border border-[#FDA600] border-solid rounded-md md:h-[64px] ${result?.properties?.Status?.status?.name === "Хүлээн авсан" ? ' bg-[#333D47]' : 'bg-[#000000]'} my-1`}
                                         >
                                             <div className="flex md:flex-row flex-col gap-1 md:gap-[100px]">
                                                 <div className="text-[#FFFFFF] flex items-center gap-2">
@@ -177,7 +180,7 @@ export default function Home() {
                                             </div>
 
                                             <div>
-                                                <div className={`col-span-1 flex items-center gap-1 ${iActive ? "bg-[transparent]" : "bg-[#15B8BF]"} rounded p-2 px-5`}>
+                                                <div className={`col-span-1 flex items-center gap-1 ${iActive ? "bg-[transparent]" : "bg-[#FDA600]"} rounded p-2 px-5`}>
                                                     <div className="text-[#ffffff] font-medium text-l">
                                                         {!iActive
                                                             ? Number(result.properties?.Price?.number ?? "0").toLocaleString() + ' ₮' || '정보 없음'
@@ -205,7 +208,7 @@ export default function Home() {
                 <footer className="w-full flex text-white py-5 items-center justify-center">
                     <div className="flex items-center mx-auto gap-4">
                         <a
-                            href="https://www.facebook.com/"
+                            href="https://www.facebook.com/profile.php?id=61561245556651"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-blue-500 hover:text-blue-600"
@@ -224,7 +227,7 @@ export default function Home() {
 
                         <div className="flex flex-col items-start gap-2">
                             <p className="text-sm font-bold">Холбоо барих</p>
-                            <p className="text-sm font-bold">Утасны дугаар: +97699999999</p>
+                            <p className="text-sm font-bold">Утасны дугаар: +97690861026, +97688646003</p>
                         </div>
                     </div>
                 </footer>
