@@ -54,7 +54,7 @@ export default function Home() {
                 <meta property="og:title" content="Нисэх карго" />
                 <meta property="og:description" content="'Нисэх карго' нь БНХАУ-н бүх хотуудаас бүх төрлийн барааг Улаанбаатар хот руу хурдан, аюулгүй тээвэрлэх үйлчилгээ үзүүлдэг ба тээвэр зуучийн салбарт 10 гаруй жилийн туршлагтай Хятад улсын тээврийн Амгалан карго компани-тай хамтран ажиллаж байна." />
                 <meta property="og:image" content="/logo1.png" />
-                <meta property="og:url" content="https://www.facebook.com/profile.php?id=61561245556651" />
+                <meta property="og:url" content="https://nisekhcargo.vercel.app/" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Нисэх карго" />
                 <meta name="twitter:description" content="'Нисэх карго' нь БНХАУ-н бүх хотуудаас бүх төрлийн барааг Улаанбаатар хот руу хурдан, аюулгүй тээвэрлэх үйлчилгээ үзүүлдэг ба тээвэр зуучийн салбарт 10 гаруй жилийн туршлагтай Хятад улсын тээврийн Амгалан карго компани-тай хамтран ажиллаж байна." />
